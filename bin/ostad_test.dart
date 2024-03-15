@@ -28,4 +28,5 @@ void displayFruitsDetails({required String name, required String color, required
 
 void applyPriceDiscount({required String name, required String color, required double price}){
   print("Name: $name, Color: $color, Price: \$${price-(price*10/100)}");
+
 }
